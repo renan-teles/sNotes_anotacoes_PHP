@@ -193,15 +193,15 @@ class Anotacao extends Conexao {
     }
 
     public function mostrarMensagem(){
-        if(isset($_SESSION['msg-anotacao'])){  
+        if(isset($_SESSION['msg'])){  
             echo '
                 <div class="col-12">
-                        <div class="alert alert-info alert-dismissible fade show" role="alert"><i class="bi-info-circle me-1"></i>'.$_SESSION['msg-anotacao'].'
+                        <div class="alert alert-info alert-dismissible fade show" role="alert"><i class="bi-info-circle me-1"></i>'.$_SESSION['msg'].'
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button> 
                         </div>
                 </div>
                     ';
-            unset($_SESSION['msg-anotacao']);
+            unset($_SESSION['msg']);
         }
     }
     

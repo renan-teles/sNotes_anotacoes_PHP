@@ -16,7 +16,7 @@
     <?php include('elementos/navbar.php');?>
     <main class="container my-5"> 
         <section class="d-flex justify-content-center">
-            <div class="col-12 col-sm-8">
+            <div class="col-12 col-md-8">
                 <?php $usuario->mostrarMensagem(); ?>
             </div>   
         </section>

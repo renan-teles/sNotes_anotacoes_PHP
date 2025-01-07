@@ -17,7 +17,7 @@
         <div class="row hgt-100">
             <!--LOGIN-->
             <div id="divLogin" class="col d-flex justify-content-center align-items-center">
-                <form action="validacao.php" method="POST" class="col-12 col-md-5 p-4 shadow rounded" style="background-color: white;">
+                <form action="validacao.php" method="POST" class="col-12 col-md-5 p-4 shadow rounded bg-white">
                     <div class="mb-3 text-center">
                         <h2>SNOTES - Entrar</h2>
                         <p>Entre e tenha suas anotações em um só lugar!</p><hr>

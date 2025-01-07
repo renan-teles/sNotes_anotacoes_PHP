@@ -1,9 +1,7 @@
 <?php
-
     require_once 'classes/Anotacao.php';
     require_once 'classes/Usuario.php';
     $usuario->verificarLogin();
-   
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -11,14 +9,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNOTES</title>
-    <style>
-        .oneline{
-        white-space: nowrap; /* Impede que o texto quebre em várias linhas */
-        overflow: hidden;    /* Oculta o texto que ultrapassa o limite */
-        text-overflow: ellipsis; /* Adiciona reticências (...) ao final do texto */
-    }
-
-    </style>
     <link rel="stylesheet" href="css/estilo.css">
     <script src="js/scriptAnotacao.js" defer></script>
     <?php include('bootstrap/bootstrap.php');?>
