@@ -168,3 +168,4 @@ if (isset($_POST['btnLogar'])) {
 } else if(isset($_POST['moverAnotacao'])) {
     moverParaLixeira($anotacao);
 }
+?>
