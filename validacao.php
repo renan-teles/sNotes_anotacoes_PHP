@@ -167,5 +167,7 @@ if (isset($_POST['btnLogar'])) {
     editarAnotacao($anotacao);
 } else if(isset($_POST['moverAnotacao'])) {
     moverParaLixeira($anotacao);
+} else{
+    redirecionar("index.php");
 }
 ?>

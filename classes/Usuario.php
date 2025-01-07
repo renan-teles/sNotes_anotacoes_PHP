@@ -14,7 +14,7 @@ class Usuario extends Conexao {
     public function setId($id){ $this->id = $id; }
 
     public function setNome($nome){ $this->nome = $nome; }
-    
+
     public function setEmail($email){ $this->email = $email; }
 
     public function criarUsuario($nome, $email, $senha){
@@ -76,10 +76,10 @@ class Usuario extends Conexao {
                     $_SESSION['userName'] = $user['nome'];
                     $_SESSION['userId'] = $user['id'];
                 } else {
-                    $_SESSION['msg-usuario'] = 'Senha incorreta!';
+                    $_SESSION['msg'] = 'Senha incorreta!';
                 }
             } else {
-                $_SESSION['msg-usuario'] = 'Usuário não encontrado!';
+                $_SESSION['msg'] = 'Usuário não encontrado!';
             }
         } catch (PDOException $e) {
             echo 'Erro ao tentar logar: ' . $e->getMessage();
